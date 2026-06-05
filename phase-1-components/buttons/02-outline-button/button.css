@@ -28,3 +28,18 @@ button {
     color:brown;
 }
 
+.btn-2 {
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 25px;
+    transition: 
+        background-color 1s ease-in,
+        border-radius 1s ease-in,
+        color 1s ease-in;
+}
+
+.btn-2:hover {
+    background-color: blue;
+    border-radius: 5px;
+    color:white;
+}
