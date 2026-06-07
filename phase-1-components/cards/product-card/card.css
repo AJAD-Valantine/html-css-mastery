@@ -1,3 +1,28 @@
+:root {
+
+  /*Colors*/
+
+  /* Primary */
+  --clr-primary-500: hsl(158, 36%, 37%);
+  --clr-primary-700: hsl(158, 42%, 18%);
+
+  /* Neutral */
+  --clr-neutral-900: hsl(212, 21%, 14%);
+  --clr-neutral-500: hsl(228, 12%, 48%);
+  --clr-neutral-100: hsl(30, 38%, 92%);
+  --clr-neutral-0:   hsl(0, 0%, 100%);
+
+  /* Font Weight */
+  --fw-regular: 500;
+  --fw-bold: 700;
+
+  /* Font Family */
+  --ff-accent: "Fraunces", "serif";
+  --ff-base: "Montserrat", "sans-serif"
+}
+
+
+
 /* 1. Use a more-intuitive box-sizing model */
 *, *::before, *::after {
   box-sizing: border-box;
@@ -52,4 +77,3 @@ h1, h2, h3, h4, h5, h6 {
 #root, #__next {
   isolation: isolate;
 }
-
